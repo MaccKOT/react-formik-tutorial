@@ -2,12 +2,21 @@ import React from 'react';
 import { hot } from 'react-hot-loader/root';
 
 import { Styles } from './Styles';
+import { Formik } from 'formik';
+import * as Yup from 'yup';
 
 class App extends React.Component {
   render() {
     return (
       <Styles>
-        <h1>Hello </h1>
+        <Formik
+          initialValues={{
+            name: '',
+            email: '',
+            acceptedTerms: false,
+            specialPower: '',
+          }}
+          validationSchema={}></Formik>
       </Styles>
     );
   }
