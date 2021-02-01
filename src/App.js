@@ -1,13 +1,14 @@
 import React from 'react';
 import { hot } from 'react-hot-loader/root';
 
+import { Styles } from './Styles';
+
 class App extends React.Component {
   render() {
-    const { name } = this.props;
     return (
-      <>
-        <h1>Hello {name || 'world'}</h1>
-      </>
+      <Styles>
+        <h1>Hello </h1>
+      </Styles>
     );
   }
 }
