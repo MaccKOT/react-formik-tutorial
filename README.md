@@ -1,6 +1,6 @@
 # Building better React forms with Formik
 
-Tutorial video [https://www.youtube.com/watch?v=3sXYK60T6Us](https://www.youtube.com/watch?v=3sXYK60T6Us).
+Tutorial video: [https://www.youtube.com/watch?v=3sXYK60T6Us](https://www.youtube.com/watch?v=3sXYK60T6Us).
 
 ## Building and running on localhost
 
